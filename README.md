@@ -9,5 +9,5 @@ oc expose svc/code
 
 # not all the extensions are available on the official catalog.
 # extra ones have been added to the image but they need to be manually installed in VSCode, 
-like you would normally install a .vsix file
+# like you would normally install a .vsix file
 ```
