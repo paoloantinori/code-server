@@ -6,4 +6,7 @@ oc adm policy add-scc-to-user anyuid -z default # run this when the current open
 
 oc new-app --strategy docker  --name code https://github.com/paoloantinori/code-server 
 oc expose svc/code
+
+# not all the extensions are available on the official catalog.
+# extra ones have been added to the image but they need to be manually installed in VSCode, like you would normally install a .vsix file
 ```
